@@ -1,5 +1,18 @@
 # wrangler
 
+## 4.36.0
+
+### Minor Changes
+
+- [#10119](https://github.com/cloudflare/workers-sdk/pull/10119) [`336a75d`](https://github.com/cloudflare/workers-sdk/commit/336a75d8d7c52cc24e08de62dd4306201b879932) Thanks [@dxh9845](https://github.com/dxh9845)! - Add support for dynamically loading 'external' Miniflare plugins for unsafe Worker bindings (developed outside of the workers-sdk repo)
+
+### Patch Changes
+
+- [#9955](https://github.com/cloudflare/workers-sdk/pull/9955) [`51553ef`](https://github.com/cloudflare/workers-sdk/commit/51553efa5bd7f07aa20d38fe6db62aa61e2b1999) Thanks [@penalosa](https://github.com/penalosa)! - Integrate the Cloudflare SDK into Wrangler (internal refactor)
+
+- Updated dependencies [[`336a75d`](https://github.com/cloudflare/workers-sdk/commit/336a75d8d7c52cc24e08de62dd4306201b879932)]:
+  - miniflare@4.20250906.1
+
 ## 4.35.0
 
 ### Minor Changes
